@@ -4,8 +4,8 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         System.out.printf("Welcome to demo Project!\n");
-        countFor(1,10);
-        countWithWhile(1,10);
+        countFor(1,);
+        countWithWhile(1,99);
     }
 
     private static void countWithWhile(int ini, int end) {
