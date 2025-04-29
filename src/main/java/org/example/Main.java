@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.printf("Welcome to demo Project!\n");
         countFor(1,10);
-        countWithWhile(1,10);
-		reverseCount(1,10);
+        //countWithWhile(1,10);
+		//reverseCount(1,10);
     }
 
     private static void countWithWhile(int ini, int end) {
@@ -26,7 +26,7 @@ public class Main {
 	
 	private static void reverseCount(int ini, int end) {
         System.out.println("\reverseCount =======================");
-        for (int i = end; i <= ini; i--) {
+        for (int i = end; i >= ini; i--) {
             System.out.println("count i = " + i);
         }
     }
